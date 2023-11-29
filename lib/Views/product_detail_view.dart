@@ -40,7 +40,7 @@ class _ProductDetailViewState extends State<ProductDetailView> {
           },
           child: Icon(Icons.adaptive.arrow_back, color: Colors.white,)) ,
         centerTitle: true,
-        title: Text('Products Details' , style: TextStyle ( color : Colors.white , fontWeight: FontWeight.w500),),
+        title: Text('Product Details' , style: TextStyle ( color : Colors.white , fontWeight: FontWeight.w500),),
         actions: const [   
           Icon(Icons.shopping_cart , color: Colors.white,), 
           SizedBox(width: 12,),
