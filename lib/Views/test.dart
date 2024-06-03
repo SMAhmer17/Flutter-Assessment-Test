@@ -12,7 +12,12 @@ class _TestScreenState extends State<TestScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text('Test Screen'),
+      ),
+      body: Column(
+        children: [Text('asdas')],
+      ),
     );
   }
 }
